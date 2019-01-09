@@ -5,13 +5,13 @@ from redis import StrictRedis
 class Config:
     DEBUG = None
     # 设置密钥
-    SECRET_KEY = 'dsadasdferfasfaaaaaaaaaaaaaaaaafew=='
+    SECRET_KEY = 'XEPl21VcvbzeuWx/IiJuYK+y8+DQJJ9aOP4IEnfuuwE='
     # 配置数据库的连接和动态追踪修改
     SQLALCHEMY_DATABASE_URI = 'mysql://user:mysql@host/databases_name'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     # 定义redis的主机和port
-    REDIS_HOST = 'host'
+    REDIS_HOST = '127.0.0.1'
     REDIS_PORT = 6379
     # 配合状态保持存储的session信息
     SESSION_TYPE = 'redis'
