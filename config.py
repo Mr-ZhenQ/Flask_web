@@ -5,7 +5,7 @@ from redis import StrictRedis
 class Config:
     DEBUG = None
     # 设置密钥
-    SECRET_KEY = 'XEPl21VcvbzeuWx/IiJuYK+y8+DQJJ9aOP4IEnfuuwE='
+    SECRET_KEY = 'ADTv/3LUU9OmiS3mVwxH/j0Bph7wSkpv/2vB2lr0jPA='
     # 配置数据库的连接和动态追踪修改
     SQLALCHEMY_DATABASE_URI = 'mysql://user:mysql@host/databases_name'
     SQLALCHEMY_TRACK_MODIFICATIONS = False

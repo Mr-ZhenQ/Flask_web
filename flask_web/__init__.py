@@ -52,8 +52,8 @@ def create_app(config_name):
         return response
 
     # 导入蓝图对象，注册蓝图
-    from flask_web.modules.user import user_blue
-    app.register_blueprint(user_blue)
+    from flask_web.modules.example import example_blue
+    app.register_blueprint(example_blue)
 
     # TODO 导入蓝图 && 注册蓝图
 
